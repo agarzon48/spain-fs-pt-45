@@ -1,1 +1,30 @@
-[{"id":1,"name":"Raul","currency":"€","actualEarning":15000,"monthlyEarning":6454,"forecastTime":0,"casualEarning":500},{"id":2,"name":"Saul","currency":"€","actualEarning":15000,"monthlyEarning":6454,"forecastTime":0,"casualEarning":500},{"id":3,"name":"Baul","currency":"€","actualEarning":15000,"monthlyEarning":6454,"forecastTime":0,"casualEarning":500}]
+[
+    {
+        "id": 1,
+        "username": "Raul",
+        "currency": "€",
+        "actualEarning": 2000,
+        "monthlyEarning": 1200
+    },
+    {
+        "id": 3,
+        "username": "Yeray",
+        "currency": "€",
+        "actualEarning": 6000,
+        "monthlyEarning": 3000
+    },
+    {
+        "id": 4,
+        "username": "Adrian",
+        "currency": "#",
+        "actualEarning": 15000,
+        "monthlyEarning": 1700
+    },
+    {
+        "id": 5,
+        "username": "Luis",
+        "currency": "€",
+        "actualEarning": 12000,
+        "monthlyEarning": 1600
+    }
+]
