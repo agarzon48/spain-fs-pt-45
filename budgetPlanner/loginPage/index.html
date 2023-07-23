@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+
+<body class="bg-dark">
+    <div class="d-flex justify-content-center">
+        <div class="position-absolute top-50 start-50 translate-middle w-75">
+
+            <div class="">
+                <nav>
+                    <div class="nav nav-pills" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Log-in</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sing-in</button>
+                    </div>
+                </nav>
+                <div class="card border-secondary py-3">
+                    <div class="tab-content" id="nav-tabContent">
+                        <form action="" class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab" tabindex="0">
+                            <div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" required>
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" required>
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <div class="card-footer bg-transparent d-flex">
+                                    <button type="submit" class="btn btn-primary ms-auto me-0">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                        <form action="" class="tab-pane fade" id="nav-profile" role="tabpanel"
+                            aria-labelledby="nav-profile-tab" tabindex="0">
+                            <div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="text" class="form-control" id="username" placeholder="username"
+                                        pattern="\w{3,16}" required>
+                                    <label for="username">Username</label>
+                                </div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com"
+                                        required>
+                                    <label for="email">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" pattern="[ 0-9A-Za-zñÑ]{5,12}" required>
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <div class="mx-2">
+                                    <select class="form-select form-floating mb-3 py-3" id="Currency"
+                                        aria-label="Default select example" placeholder="Currency" required>
+                                        <label for="Currency">Currency</label>
+                                        <option value="" disabled selected>Select your currency</option>
+                                        <option value="€">€ - Euros</option>
+                                        <option value="$">$ - Dollars</option>
+                                    </select>
+                                </div>
+                                <div class="form-floating mb-3 mx-2">
+                                    <input type="text" class="form-control" id="actualMoney" placeholder="actualMoney"
+                                        pattern="\d{1,15}" required>
+                                    <label for="floatingInput">Actual money balance</label>
+                                </div>
+
+                                <div class="mb-3 form-check mx-2">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                    <label class="form-check-label" for="exampleCheck1">I read and accept <a
+                                            href="">terms</a> and <a href="">conditions</a></label>
+                                </div>
+                                <div class="card-footer bg-transparent d-flex">
+                                    <button type="submit" class="btn btn-primary ms-auto me-0">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>

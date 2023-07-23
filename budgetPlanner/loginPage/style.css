@@ -1,0 +1,10 @@
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: white !important;
+    color:Black !important;
+}
+.nav-pills .nav-link,
+.show>.nav-pills .nav-link{
+    background: none !important;
+    color: white !important;
+}
