@@ -1,6 +1,5 @@
 const prompt = require('prompt-sync')({ sigint: true });
 const fs = require('fs');
-
 //Second Functions
 
 function loadUserProfileFile() {
