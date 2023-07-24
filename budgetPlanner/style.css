@@ -1,0 +1,13 @@
+.body {
+    min-height: calc(100vh - 48px);
+    background-color: aquamarine;
+};
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
