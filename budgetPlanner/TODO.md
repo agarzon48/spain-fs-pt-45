@@ -1,6 +1,13 @@
+* Acepta ingresos
+* Acepta gastos
+* Representa gastos e ingresos en interfaz gráfica
+* Categoriza los gastos e ingresos
+* En cada categoría aparece una lista con los gastos e ingresos
+
+
 ## APP
 
-1. Navbar
+
 1. Body
 1. Footer
 
@@ -10,14 +17,4 @@
 1. Signin
 1. Profile
 
-## CATEGORIES
-
-1. ...
-
-## EARNINGS
-
-1. ...
-
-## EXPENSES
-
-1. ...
+## CATEGORIESg
