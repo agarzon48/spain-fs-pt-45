@@ -1,4 +1,3 @@
-
 export const loginForm = () => {
     const loginFormElement = document.createElement("form");
     loginFormElement.innerHTML = `
