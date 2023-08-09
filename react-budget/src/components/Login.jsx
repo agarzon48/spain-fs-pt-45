@@ -1,30 +1,32 @@
 import React from "react"
-
+import './Login.css'
 export default function LoginForm({ name, password }) {
 
     return (
-        <div className="container">
-            <div className=" d-flex justify-content-center  align-items-center bg-danger">
-                <div className="text-center">
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputEmail1" className="form-label">Username</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" />
-                    </div>
-                    <div className="mb-3 form-check">
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                        <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
-                        
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </div>
+        <div className="container d-flex justify-content-center rounded align-items-center m-auto">
+            <div className="card text-center  mt-5 login ">
+                <div className="card-body title mb-2 rounded-top">
+                    <h1 className=" card-title ">Quantum Dinerum</h1>
+                 </div>
+                 <div className="mb-2 p-2">   
+                    <label htmlFor="username" className="form-label">Username</label>
+                    <input type="email" className="form-control input-box" id="userName" aria-describedby="emailHelp" />
+                </div>
+                <div className="mb-2 p-2">
+                    <label htmlFor="password" className="form-label">Password</label>
+                    <input type="paswword" className="form-control input-box" id="userPassword" aria-describedby="emailHelp" />
+                </div>
+                <div className="d-flex justify-content-center  align-items-center mb-2 p-2">
+                <button type="submit" className="btn login-btn text-dark">Log in</button>
+                </div>
+                <div className="p-2">
+                    <a href="#" className="card-link">Forgot your password?</a>
+                    <a href="#" className="card-link ms-5">Don't have an account yet?Register now!</a>
                 </div>
             </div>
         </div>
-            )
+
+    )
 }
 
 

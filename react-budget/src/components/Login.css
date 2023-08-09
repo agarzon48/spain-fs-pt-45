@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body{
+    
+   background-color: grey;
+}
+
+.login{
+    background: #f1e8e6;
+}
+
+.input-box{
+    background-color: #edd2cb !important;
+}
+
+.login-btn{
+    background: #edd2cb;
+}
+.login-btn:hover{
+    background-color: #dcb8af;
+}
+.title{
+    color: #edd2cb;
+    background-color: #543c52;
+    font-family: 'Amatic SC', cursive;
+}
