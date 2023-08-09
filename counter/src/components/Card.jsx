@@ -9,4 +9,4 @@ const Card = ({children}) => {
     )
 }
 
-export default Card;
+        export default Card;
