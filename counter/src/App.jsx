@@ -1,7 +1,7 @@
 import CounterBG from "./components/CounterBG"
 import Card from "./components/Card"
 
-function App() {
+function App({ counter, firstDigit, secondDigit }) {
  return (
     <CounterBG color="black">
         <Card>
@@ -20,10 +20,10 @@ function App() {
             0
         </Card>
         <Card>
-            0
+            {secondDigit}
         </Card>
         <Card>
-            0
+            {firstDigit}
         </Card>
     </CounterBG>
  )
