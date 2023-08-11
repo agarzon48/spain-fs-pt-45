@@ -1,12 +1,6 @@
-import { useState } from 'react'
-import ListOfButtons from './Components/ListOfButtons'
-import Buttons from './Components/Buttons'
+import Buttons from './components/Buttons'
 
-import React from 'react'
-import LoginForm from './components/Login'
 function App() {
-  
-
   return (
     <div className="btn-group-vertical gap-3" role="group" aria-label="Vertical button group">
       <Buttons color="success" text="Actual Money"/>

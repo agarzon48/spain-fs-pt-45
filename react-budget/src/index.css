@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    background-color: grey;
+}
+
+.font-title {
+    font-family: 'Amatic SC', cursive;
+}
