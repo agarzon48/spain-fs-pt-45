@@ -1,6 +1,6 @@
 import classes from './Login.module.css'
 
-export default function LoginForm({ name, password }) {
+export default function LoginForm({ name, password, handleClick }) {
     return (
       <div className="container d-flex justify-content-center rounded align-items-center m-auto login-page">
         <div className={`card text-center  mt-5 ${classes.login}`}>
@@ -33,6 +33,7 @@ export default function LoginForm({ name, password }) {
             <button
               type="submit"
               className={`btn ${classes["login-btn"]} text-dark`}
+              onClick={ handleClick }
             >
               Log in
             </button>
