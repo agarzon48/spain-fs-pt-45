@@ -14,9 +14,21 @@ let users = [
     }
 ];
 
+// const [tasks, setTasks] = useState([]);
+let tasks; // Supongamos que es el estado actual
+let setTasks; // Supongamos que es la función de actualización
+
 // CRUD
 // Create
 const createUser = (user) => users.push(user);
+
+// React version
+const createTask = (task) => {
+    const newTasksList = [...tasks, task];
+    setTasks(newTasksList);
+};
+
+const createTask2 = task => setTasks(prev => [...prev, task]);
 
 // Read
 const getUsers = () => users;
@@ -35,11 +47,29 @@ const updateUser = ({ id, email, password }) => {
 
     users = newUsersList;
 }
+
+const updateWithReact = newData => {
+    const updatedTasks = tasks.map(task => {
+        if (task.id !== newData.id) {
+            return task;
+        }
+        return newData;
+    });
+    setTasks(updatedTasks);
+}
+
 // Delete
 const deleteUser = (id) => {
     const currentUsers = users.filter((user) => user.id !== id);
 
     users = currentUsers;
+}
+
+const reactDeleteTask = id => setTasks(prev => prev.filter(task => task.id !== id));
+
+const reactDeleteTask2 = toDeleteId => {
+    const newTasks = tasks.filter(({ id }) => id !== toDeleteId);
+    setTasks(newTasks);
 }
 
 console.log(getUsers());
