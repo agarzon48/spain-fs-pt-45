@@ -17,7 +17,7 @@ function App() {
    });
   
   const [people, PeopleIsLoading] = useGetResources("https://www.swapi.tech/api/people");
-  const [planets, planetsAreLoading] = useGetResources("https://www.swapi.tech/aggsdfgsdfgsdpi/planets");
+  const [planets, planetsAreLoading] = useGetResources("https://www.swapi.tech/api/planets");
 
 
   if (PeopleIsLoading || planetsAreLoading) {
