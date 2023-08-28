@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 const Router = () => {
   return (
     <BrowserRouter basename="">
-      <Navbar />
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
