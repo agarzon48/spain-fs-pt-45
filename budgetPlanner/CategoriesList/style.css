@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 15%;
+    font-size: 150%;
+}
+
+.list-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
